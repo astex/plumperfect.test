@@ -15,7 +15,7 @@ Controllers are similarly built.  They are primarily built off of `RestCtrl` in 
 How to Setup and Use
 --------------------
 
-Set-up is more or less typical for python web projects.  Requirements can be installed using pip with `pip -r requirements.txt`.  If you don't know how to set up a virtualenv yet, you should read [this](http://www.virtualenv.org/en/latest/).
+Set-up is more or less typical for python web projects.  Requirements can be installed using pip with `pip install -r requirements.txt`.  If you don't know how to set up a virtualenv yet, you should read [this](http://www.virtualenv.org/en/latest/).
 
 The APIs are restful and jsonic.  They can take in either json objects or form-data (for the convenience of not having to set up headers, I usually just use [POSTman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en) with form-data for testing).  The routes are set up to be served at `http://localhost:5001/api/<route>`.  In order to start the server, just install the necessary packages and run `python run.py` (make sure it is set up to use an open port in `config.py` first).
 
