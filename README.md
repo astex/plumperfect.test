@@ -24,7 +24,7 @@ Tasks
 
 While the project is entirely functional, there are some key bits lacking.  Please fork this repo and do one or more of the following on your fork:
 
-- Add authentication.  The post, put, patch, and delete methods should require authentication except for user.post.  Passwords should be hashed using [bcrypt](https://code.google.com/p/py-bcrypt/).
+- Add authentication.  The post, put, patch, and delete methods should require authentication except for user.post, which should create a new user.  Passwords should be hashed using [bcrypt](https://code.google.com/p/py-bcrypt/).
 - Add filtering based on `brand_ids`, `product_ids`, `color_ids`, and `user_ids` to the index methods.
 - Add views across relationships (e.g `/product/<id>/color` ).
 - Add search.
